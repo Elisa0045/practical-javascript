@@ -13,7 +13,7 @@ var todoList = {
         }
       }
     }
-  },
+  }, //I add the functions for: add a todo, change the values, delete a todo, and Toggles all the todos complete or incomplete//
   addTodo: function(todoText) {
     this.todos.push({
       todoText: todoText,
@@ -54,15 +54,13 @@ var todoList = {
     this.displayTodos();
   }
 };
+//listeners
+var displayTodosButton = document.getElementById("displayTodosButton");
+var toggleAllButton = document.getElementById("toggleAllButton");
+displayTodosButton.addEventListener("click", function() {
+  todoList.displayTodos();
+});
+toggleAllButton.addEventListener("click", function() {
+  todoList.toggleAll();
+});
 
-//I add the functions for: add a todo, change the values, and delete a todo.
-
-/*exercise 
-Version 5 for loops 
-for (var i = 0; i < 3; i++) {
-  console.log("hey");
-}
-for (var i = 0; i < testArray.length; i++) {  Using the  for loops in the arrays 
-  console.log(testArray[i]);
-}
-*/
