@@ -1,0 +1,43 @@
+body {
+  background-color: #ffffff;
+  font-family: monospace;
+  text-align: center;
+}
+h1 {
+  color: #9ac755;
+  font-size: 50px;
+}
+button {
+  background-color: #c6acd2;
+  color: #f7f7f7;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 4px;
+  font-family: monospace;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.img1 {
+  width: 50%;
+  padding-top: 5%;
+}
+input {
+  background-color: #f7f7f7;
+  font-family: monospace;
+  color: #a5bde2;
+  font-size: 25px;
+  border-radius: 4px;
+  cursor: text;
+}
+ul {
+  font-family: monospace;
+  color: #9ac755;
+  font-size: 25px;
+  list-style: none;
+}
+#changeTodoPositionInput {
+  width: 5%;
+}
+#toggleCompletedPositionInput{
+    width: 8%;
+}
