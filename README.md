@@ -15,7 +15,7 @@
 Code-Along exercise for practicing JavaScript, HTML, CSS.
 
 ## Screenshots
-![Example screenshot](./img/PracticalJavaScript.png)
+![Example screenshot](./img/img1.png)
 
 ## Technologies
 * JavaScript
