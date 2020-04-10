@@ -37,10 +37,13 @@ var todoList = {
 //handlers
 var handlers = {
   addTodo: function () {
+    debugger;
     var addTodoTextInput = document.getElementById("addTodoTextInput");
-    todoList.addTodo(addTodoTextInput.value);
-    addTodoTextInput.value = "";
-    view.displayTodos();
+    if (addTodoTextInput.value !== "") {
+      todoList.addTodo(addTodoTextInput.value);
+      addTodoTextInput.value = "";
+      view.displayTodos();
+    }
   },
   changeTodo: function () {
     var changeTodoPositionInput = document.getElementById(
